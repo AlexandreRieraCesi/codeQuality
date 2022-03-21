@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace CRM
 {
-    public class User
+    internal class User
     {
+        public User(string? raison_sociale, string? nom, string? prenom, string? numero_telephone, string? email, string? adresse)
+        {
+            Raison_sociale = raison_sociale;
+            Nom = nom;
+            Prenom = prenom;
+            Numero_telephone = numero_telephone;
+            Email = email;
+            Adresse = adresse;
+        }
 
         public string? Raison_sociale { get; set; }
         public string? Nom { get; set; }

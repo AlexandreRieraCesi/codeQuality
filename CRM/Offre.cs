@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace CRM
 {
-    public class Offre
+    internal class Offre
     {
+        public Offre(string nom, float montant, DateTime dateDeValidite)
+        {
+            Nom = nom;
+            Montant = montant;
+            DateDeValidite = dateDeValidite;
+        }
+
         public string Nom { get; set; }
         public float Montant { get; set; }
         public DateTime DateDeValidite { get; set; }

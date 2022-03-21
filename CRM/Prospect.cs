@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace CRM
 {
-    public class Prospect : User
+    internal class Prospect : User
     {
+        public Prospect(DateTime? dateDeContrat)
+        {
+            DateDeContrat = dateDeContrat;
+        }
+
         public DateTime? DateDeContrat { get; set; }
 
     }

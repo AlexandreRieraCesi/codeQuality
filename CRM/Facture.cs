@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace CRM
 {
-    public class Facture
+    internal class Facture
     {
+        public Facture(int idClient, int idOffre, float offreMontant, DateTime dateEmission, DateTime datePaiement, bool isPaid)
+        {
+            IdClient = idClient;
+            IdOffre = idOffre;
+            OffreMontant = offreMontant;
+            DateEmission = dateEmission;
+            DatePaiement = datePaiement;
+            IsPaid = isPaid;
+        }
+
         private int IdClient { get; }
         private int IdOffre { get; }
         public float OffreMontant { get; set; }

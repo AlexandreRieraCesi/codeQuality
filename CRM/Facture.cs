@@ -18,11 +18,21 @@ namespace CRM
             IsPaid = isPaid;
         }
 
+        public int Id { get; }
         private int IdClient { get; }
         private int IdOffre { get; }
         public float OffreMontant { get; set; }
         public DateTime DateEmission { get; set; }
         public DateTime DatePaiement { get; set; }
         public bool IsPaid { get; set; }
+
+        public bool HandleIsPaidFactures()
+        {
+            if (!IsPaid)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

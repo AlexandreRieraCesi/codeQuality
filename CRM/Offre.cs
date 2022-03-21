@@ -14,7 +14,7 @@ namespace CRM
             Montant = montant;
             DateDeValidite = dateDeValidite;
         }
-
+        public int Id { get; }
         public string Nom { get; set; }
         public float Montant { get; set; }
         public DateTime DateDeValidite { get; set; }

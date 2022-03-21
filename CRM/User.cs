@@ -18,12 +18,14 @@ namespace CRM
             Adresse = adresse;
         }
 
+        public int Id { get; }
         public string? Raison_sociale { get; set; }
         public string? Nom { get; set; }
         public string? Prenom { get; set; }
         public string? Numero_telephone { get; set; }
         public string? Email { get; set; }
         public string? Adresse { get; set; }
+
 
     }
 }

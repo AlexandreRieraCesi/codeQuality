@@ -8,8 +8,9 @@ namespace CRM
 {
     internal class User
     {
-        public User(string? raison_sociale, string? nom, string? prenom, string? numero_telephone, string? email, string? adresse)
+        public User(int id, string? raison_sociale, string? nom, string? prenom, string? numero_telephone, string? email, string? adresse)
         {
+            Id = id;
             Raison_sociale = raison_sociale;
             Nom = nom;
             Prenom = prenom;

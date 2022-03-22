@@ -22,7 +22,7 @@ namespace CRM
 
             List<Client> sommeProspectsList = new() { prospect1, prospect2, prospect3 };
 
-            int retour = sommeProspectsList.Count();
+            int retour = sommeProspectsList.Count;
 
             return retour;
         }

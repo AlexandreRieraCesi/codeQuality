@@ -27,7 +27,7 @@ namespace CRM
 
         public static int CountClients()
         {
-            int retour = GetClients().Count();
+            int retour = GetClients().Count;
 
             return retour;
         }

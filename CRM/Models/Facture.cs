@@ -66,7 +66,6 @@ namespace CRM
             Console.WriteLine("EST-CE QUE LE CLIENT A PAYÉ SES FACTURES ?");
             Console.WriteLine("");
 
-            List<Client> clientList = new() { };
             foreach (Client client in clients)
             {
                 foreach (Facture facture in facturesList)

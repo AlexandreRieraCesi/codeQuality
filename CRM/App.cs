@@ -9,7 +9,7 @@ using static CRM.Facture;
 
 namespace CRM
 {
-    internal class App
+    static internal class App
     {
         static void Main(string[] args)
         {

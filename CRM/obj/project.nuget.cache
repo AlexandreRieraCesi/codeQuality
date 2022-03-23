@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1zCPxKRqdZm3f7aCFPMbYnzZL2jbnLXy14lkqUNHsn4OHPgbhGwXAQ/9tUhhdVHlZSbhAzB1ek2tBIVGa4GJiQ==",
+  "dgSpecHash": "VuxxwGmXdXXL64S1Wzg34k/U/Q8CZYH15pMnuCGTqsCzcFRW5k0PmUBqXqxMaOFQFA/msNK6b5dbI2U97M0fFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexa\\source\\repos\\CRM\\CRM\\CRM.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\spectre.console\\0.43.0\\spectre.console.0.43.0.nupkg.sha512"
+  ],
   "logs": []
 }

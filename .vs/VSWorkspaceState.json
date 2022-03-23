@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CRM",
+    "\\CRM\\Models",
+    "\\CRM\\Persistance",
+    "\\CRM\\Services",
+    "\\unit-testing-using-nunit\\PrimeService",
+    "\\unit-testing-using-nunit\\PrimeService.Tests"
+  ],
+  "SelectedNode": "\\CRM\\Services\\Client_controller.cs",
+  "PreviewInSolutionExplorer": false
+}

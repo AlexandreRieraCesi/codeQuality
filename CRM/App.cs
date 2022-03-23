@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static CRM.Client;
-using static CRM.Prospect;
-using static CRM.Facture;
+using static CRM.Services.Client_controller;
+using static CRM.Services.Facture_controller;
+using static CRM.Services.Prospect_controller;
 
 namespace CRM
 {
